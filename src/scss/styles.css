@@ -225,6 +225,7 @@
 .services__header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 78px;
 }
 .services__title {
   position: relative;
@@ -253,11 +254,35 @@
 .services__content {
   max-width: inherit;
   width: inherit;
+  display: flex;
+  justify-content: space-between;
 }
 .services__description {
   max-width: 295px;
   width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  padding: 38px 22px;
 }
+.services__img {
+  margin-bottom: 25px;
+}
+.services__description-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.426667px;
+  color: #48555B;
+  margin-bottom: 13px;
+}
+.services__description-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.1875px;
+  color: #48555B;
+}
+
 .button {
   display: inline-block;
   width: 150px;
