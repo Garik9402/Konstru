@@ -35,7 +35,7 @@
 }
 
 .wrapper-content {
-  background-color: #F2F2F2;
+  background-color: #FFFFFF;
 }
 
 .header {
@@ -44,6 +44,7 @@
   height: 1000px;
   background: url(../images/header__bacground.jpg) no-repeat;
   background-size: cover;
+  background-position: 50%;
 }
 .header__inner {
   max-width: 940px;
@@ -57,7 +58,7 @@
 }
 .header__title {
   font-family: "Bebas Neue", sans-serif;
-  font-weight: bold;
+  font-weight: 400px;
   font-size: 60px;
   line-height: 70px;
   letter-spacing: 5.70937px;
@@ -246,7 +247,7 @@
   letter-spacing: 0.2px;
   color: #48555B;
   max-width: 405px;
-  width: 1005px;
+  width: 100%;
 }
 .services__button-w {
   padding: 0px 0px 0px 10px;
@@ -298,4 +299,34 @@
   line-height: 15px;
   letter-spacing: 0.5px;
   color: #FFFFFF;
+}
+
+.get-in-touch {
+  width: 100%;
+  min-height: 499px;
+  background: url(../images/get-in-touch-back.jpg) 50% no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  padding-top: 120px;
+}
+.get-in-touch__inner {
+  max-width: 970px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.get-in-touch__title {
+  max-width: 330px;
+  width: 100;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #48555B;
+  text-align: center;
+  margin-bottom: 35px;
 }/*# sourceMappingURL=styles.css.map */
